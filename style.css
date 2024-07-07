@@ -34,9 +34,9 @@ header {
 }
 
 .logo {
-    height: 200px;
-    width: 200px;
     border-radius: 50%;
+    width: 280px;
+    height: 260px;
 }
 
 main {
