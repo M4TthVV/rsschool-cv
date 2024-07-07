@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+html {
+    font-size: 18px
+}
+body {
+    margin: 0;
+    font-family: 'Wittgenstein';
+}
+
+header {
+    background-color: #872626;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 2px;
+    height: 100%;
+}
+
+.navigation-item {
+    margin: 4px;
+    padding: 10px;
+    color: #f6f1f1;
+
+}
+.navigation-item * {
+    color: #f6f1f1;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+main {
+    margin: 50px 10%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0;
+}
+
+.job {
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 32px
+}
+
+footer {
+    background-color: #872626;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.information {
+    width: 550px;
+}
+
+.big-lane {
+    padding: 6px;
+    background-color: #872626;
+}
+
+pre {
+    background-color: #000;
+    color: #fff;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    margin: 0 20px -6px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color-invert {
+    filter: invert(90%);
+}
+
+.footer-item {
+    margin: 0 30px;
+}
+
+.git-logo {
+    height: 70px;
+}
+
+.rsschool-logo {
+    height: 60px;
+}
